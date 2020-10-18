@@ -1,5 +1,5 @@
 public class NPSService {
-    public static double nps(int[] votes){
+    public double nps(int[] votes){
         int detractors = 0;
         int promoters = 0;
         int neutrals = 0;
